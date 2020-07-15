@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="060ff156-b52b-41e4-8ff4-1cec759ac5af" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="superorm@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="superorm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="superorm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="superorm: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dL03bJjz6jdz7SFMekAfhYgImQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sale/templates/saleshtml" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\django_projects\superorm\sale\views" />
+      <recent name="D:\django_projects\superorm\sale\utils" />
+      <recent name="D:\django_projects\superorm\statics\dist\css" />
+      <recent name="D:\django_projects\superorm\sale\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\django_projects\superorm\sale\templates\saleshtml" />
+      <recent name="D:\django_projects\superorm\statics\dist" />
+      <recent name="D:\django_projects\superorm\statics" />
+      <recent name="D:\django_projects\superorm\statics\plugins\login" />
+      <recent name="D:\django_projects\superorm\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.xx">
+    <configuration name="xx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="supercrm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xx.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="superorm" type="Python.DjangoServer" factoryName="Django server">
+      <module name="supercrm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="superorm.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.superorm" />
+      <item itemvalue="Python.xx" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.xx" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="060ff156-b52b-41e4-8ff4-1cec759ac5af" name="Default Changelist" comment="" />
+      <created>1592188867612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592188867612</updated>
+      <workItem from="1592188870102" duration="18850000" />
+      <workItem from="1592224627836" duration="3845000" />
+      <workItem from="1592275354057" duration="12972000" />
+      <workItem from="1592300618080" duration="11762000" />
+      <workItem from="1592355610008" duration="16948000" />
+      <workItem from="1592444431354" duration="15313000" />
+      <workItem from="1592528966584" duration="21818000" />
+      <workItem from="1592618504535" duration="9850000" />
+      <workItem from="1592706408734" duration="4899000" />
+      <workItem from="1592829693762" duration="308000" />
+      <workItem from="1592879554397" duration="655000" />
+      <workItem from="1592962089081" duration="2204000" />
+      <workItem from="1592966499750" duration="786000" />
+      <workItem from="1592967946270" duration="63000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="194" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592276922344">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="194" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1592276922344" />
+    <state x="422" y="89" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1592191645946">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="422" y="89" key="#com.intellij.ide.macro.MacrosDialog/0.0.1280.760@0.0.1280.760" timestamp="1592191645946" />
+    <state x="371" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592537879364">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="371" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.760@0.0.1280.760" timestamp="1592537879364" />
+    <state x="408" y="228" width="464" height="449" key="#com.intellij.tools.ToolEditorDialog" timestamp="1592191666279">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="408" y="228" width="464" height="449" key="#com.intellij.tools.ToolEditorDialog/0.0.1280.760@0.0.1280.760" timestamp="1592191666279" />
+    <state x="421" y="138" key="FileChooserDialogImpl" timestamp="1592967978968">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="421" y="138" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1592967978968" />
+    <state width="1238" height="342" key="GridCell.Tab.0.bottom" timestamp="1592966079321">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="342" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1592966079321" />
+    <state width="1238" height="342" key="GridCell.Tab.0.center" timestamp="1592966079321">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="342" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1592966079321" />
+    <state width="1238" height="342" key="GridCell.Tab.0.left" timestamp="1592966079321">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="342" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1592966079321" />
+    <state width="1238" height="342" key="GridCell.Tab.0.right" timestamp="1592966079321">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="342" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1592966079321" />
+    <state width="1238" height="236" key="GridCell.Tab.1.bottom" timestamp="1592298909853">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="236" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1592298909853" />
+    <state width="1238" height="236" key="GridCell.Tab.1.center" timestamp="1592298909853">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="236" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1592298909853" />
+    <state width="1238" height="236" key="GridCell.Tab.1.left" timestamp="1592298909853">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="236" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1592298909853" />
+    <state width="1238" height="236" key="GridCell.Tab.1.right" timestamp="1592298909853">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="236" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1592298909853" />
+    <state x="144" y="25" key="SettingsEditor" timestamp="1592356202414">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="144" y="25" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1592356202414" />
+    <state x="336" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1592967946166">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="336" y="208" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1592967946166" />
+    <state x="305" y="84" width="672" height="678" key="search.everywhere.popup" timestamp="1592535695244">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="305" y="84" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1592535695244" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/superorm$xx.coverage" NAME="xx Coverage Results" MODIFIED="1592278308175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/supercrm$xx.coverage" NAME="xx Coverage Results" MODIFIED="1592963566618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

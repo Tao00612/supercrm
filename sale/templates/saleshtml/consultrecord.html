@@ -1,0 +1,92 @@
+{% extends 'starts.html' %}
+
+{% block title %}
+  <h1>
+{#    {% if tag == '1' %}#}
+{#      公户信息#}
+{#    {% else %}#}
+{#      我的客户信息#}
+{#    {% endif %}#}
+  {% load mytag %}
+{#  {% reverse_url request %}#}
+    跟进记录展示
+  </h1>
+{% endblock %}
+
+{% block content %}
+  <a href="{% url 'add_consult' %}" class="btn btn-primary">
+    添加跟进记录
+  </a>
+  <div class="form-inline">
+
+    <form action="" class="pull-right">
+      <div class="form-group ">
+        <select name="search_field" id="search_field" class="form-control">
+          <option value="customer__name__contains">客户名称</option>
+        </select>
+        <input type="text" class="form-control" id="key_word" placeholder="请输入搜索内容" name="kw">
+        <button type="submit" class="btn btn-default">搜索</button>
+      </div>
+
+    </form>
+
+  </div>
+  <form action="" method="post">
+      {% csrf_token %}
+      <div class="form-group pull-left">
+        <select name="action" id="action" class="form-control">
+            <option value="bulk_delete">批量删除</option>
+        </select>
+      </div >
+      <button class="btn btn-warning">go</button>
+    <table class="table table-striped table-hover table-bordered"
+  >
+  <thead>
+  <tr>
+    <th><input type="checkbox" id="select_all">选择</th>
+    <th>序号</th>
+    <th>所咨询客户</th>
+    <th>跟进内容</th>
+    <th>跟进状态</th>
+    <th>跟进人</th>
+    <th>跟进日期</th>
+    <th>操作</th>
+
+  </tr>
+  </thead>
+  <tbody>
+  {% for consult in consult_list %}
+    <tr>
+      <td>
+        <input type="checkbox" name="cids" value="{{ consult.pk }}">
+      </td>
+      <td>{{ forloop.counter }}</td>
+      <td>{{ consult.customer }}</td>
+      <td>{{ consult.note }}</td>
+      <td>{{ consult.get_status_display }}</td>
+      <td>{{ consult.consultant }}</td>
+      <td>{{ consult.date|date:'Y-m-d H:i:s' }}</td>
+      <td>
+
+{#        <a href="{% resole_url request 'edit_customer' customer_obj.pk %}"><i class="fa fa-edit"></i></a>#}
+        <a href="{% resole_url request 'edit_consult' consult.pk %}"><i class="fa fa-edit"></i></a>
+        <a href=""><i class="fa fa-remove"></i></a>
+      </td>
+
+    </tr>
+  {% endfor %}
+
+  </tbody>
+  </table>
+
+    {{ page_html }}
+  </form>
+
+
+{% endblock %}
+
+
+
+
+
+

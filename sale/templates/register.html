@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://www.jq22.com/demo/jquery-Sharelink20151012/ -->
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>CRM登录</title>
+    <link rel="stylesheet" href="{% static 'plugins/login/style.css' %}">
+</head>
+<body>
+<div class="login-container">
+    <h1>SuperCRM 注册页面</h1>
+    <div class="connect">
+        <p style="left: 0%;">欢迎来到注册页面</p>
+    </div>
+    <form action="" method="post" id="registerForm" novalidate="novalidate">
+        {% csrf_token %}
+        {% for field in register_form_obj %}
+            <div>   
+                {{ field }}
+                <span style="color: red;font-size: 13px">{{ field.errors.0 }}</span>
+            </div>
+        {% endfor %}
+
+        <button id="submit" type="submit">注 册</button>
+    </form>
+
+    <a href="{% url 'login' %}">
+        <button type="button" class="register-tis">已经有账号</button>
+    </a>
+</div>
+
+<script src="{% static 'plugins/login/jquery.min.js' %}"></script>
+<script src="{% static 'plugins/login/jquery.min.js' %}"></script>
+<script src="{% static 'plugins/login/common.js' %}"></script>
+<script src="{% static 'plugins/login/supersized.3.2.7.min.js' %}"></script>
+<script src="{% static 'plugins/login/supersized-init.js' %}"></script>
+<script src="{% static 'plugins/login/jquery.validate.min.js' %}"></script>
+
+</body>
+</html>

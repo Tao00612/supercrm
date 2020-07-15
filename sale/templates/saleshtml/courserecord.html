@@ -1,0 +1,79 @@
+{% extends 'starts.html' %}
+
+{% block title %}
+    <h1>
+    课程记录管理
+    {% load mytag %}
+{#    {% reverser_url request %}#}
+    </h1>
+{% endblock %}
+
+
+{% block content %}
+  <a href="" class="btn btn-primary">
+    添加课程记录
+  </a>
+  <div class="form-inline">
+
+    <form action="" class="pull-right">
+      <div class="form-group ">
+        <select name="search_field" id="search_field" class="form-control">
+          <option value="qq__contains">qq</option>
+          <option value="name__contains">name</option>
+          <!--  search_field:name  kw:1111  filter(name=1111) -->
+
+        </select>
+        <input type="text" class="form-control" id="key_word" placeholder="请输入搜索内容" name="kw">
+        <button type="submit" class="btn btn-default">搜索</button>
+      </div>
+    </form>
+  </div>
+  <form action="" method="post">
+      {% csrf_token %}
+      <div class="form-group pull-left">
+        <select name="action" id="action" class="form-control">
+
+            <option value="bulk_create_srecord">批量生成学习记录</option>
+
+        </select>
+      </div >
+      <button class="btn btn-warning">go</button>
+
+    <table class="table table-striped table-hover table-bordered">
+    <thead>
+    <tr>
+        <th><input type="checkbox" id="select-all">选择</th>
+        <th>序号</th>
+        <th>节次</th>
+        <th>上课日期</th>
+        <th>本节课程标题</th>
+        <th>班级</th>
+        <th>学习记录</th>
+        <th>讲师</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for foo in course_obj %}
+        <tr>
+            <td>
+                <input type="checkbox" name="cids" value="{{ foo.pk }}">
+            </td>
+            <td>{{ forloop.counter }}</td>
+            <td>{{ foo.day_num }}</td>
+            <td>{{ foo.date|date:'Y-m-d' }}</td>
+            <td>{{ foo.course_title }}</td>
+            <td>{{ foo.re_class }}</td>
+            <td>
+                <a href="{% url 'study_record' foo.pk %}">查看学习记录</a>
+            </td>
+            <td>{{ foo.teacher }}</td>
+            <td>
+                <a href=""><i class="fa fa-edit"></i></a>
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+    </table>
+    {{ page_html }}
+{% endblock %}
